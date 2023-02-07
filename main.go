@@ -15,7 +15,7 @@ import (
 // PushJerkEndpoint is the url for PushJerk's workout
 const PushJerkEndpoint = "http://pushjerk.com/index.php/workout/%s-%s-%d-%d/"
 
-// PushJerkScrape scrapes rushjerk.com
+// PushJerkScrape scrapes pushjerk.com
 func PushJerkScrape(c *cli.Context, date time.Time) {
 	fmt.Println("Push Jerk WOD")
 	url := fmt.Sprintf(PushJerkEndpoint,
